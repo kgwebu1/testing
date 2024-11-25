@@ -1,45 +1,15 @@
-/*Layout*/
-
-
+/* General Layout and Typography */
 body {
-	width: 890px;
-	margin: 0 auto;
-	font: 10pt/1.5em Helvetica,"Helvetica neue", Arial, sans-serif;
-   background: #F0F8FF;
+    width: 890px;
+    margin: 0 auto;
+    font: 10pt/1.5em Helvetica, "Helvetica Neue", Arial, sans-serif;
+    background: #F0F8FF;
 }
 
-nav{
-    
+/* Navigation Bar */
+nav {
+    /* Add styles here if needed */
 }
-
-aside{
-
-    float: left;
-	width: 420px;
-	min-height: 480px;
-    padding-right: 20px;
-    padding-top: 20px;
-    text-align: justify;
-    
-}
-
-section{
-	float: right;
-	width: 420px;
-    min-height: 480px;
-	padding-left: 20px;
-	border-left: 5px dotted #b2a497;
-    text-align: justify;
-}
-
-footer{
-	clear:both;
-	width:890px;
-	height: 100px;
-    text-align: center;
-}
-
-
 
 ul {
     list-style-type: none;
@@ -60,7 +30,6 @@ li a {
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    
 }
 
 li a:hover:not(.active) {
@@ -69,44 +38,65 @@ li a:hover:not(.active) {
 
 .active {
     background-color: #4CAF50;
-    
 }
 
+/* Page Sections */
+aside {
+    float: left;
+    width: 420px;
+    min-height: 480px;
+    padding-right: 20px;
+    padding-top: 20px;
+    text-align: justify;
+}
 
+section {
+    float: right;
+    width: 420px;
+    min-height: 480px;
+    padding-left: 20px;
+    border-left: 5px dotted #b2a497;
+    text-align: justify;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    width: 890px;
+    height: 100px;
+    text-align: center;
+}
+
+/* Headers */
 h1 {
-	font-size: 40px;
+    font-size: 40px;
     font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	text-transform: uppercase;
-	color: #000000;
-
+    text-align: center;
+    text-transform: uppercase;
+    color: #000000;
 }
 
 h3 {
-		font-size: 30px;
+    font-size: 30px;
     font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #000000;
-	
-}
-h4 {
-		font-size: 20px;
-    font-family: Arial, Helvetica, sans-serif;
-	text-align: center;
-	color: #000000;
-	
+    text-align: center;
+    color: #000000;
 }
 
+h4 {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+/* Images */
 #intro-image {
-    
     float: left;
     margin: 10px;
-
 }
 
-
 #footer-image {
-    
-   height: 100px;
-    width=100px;
+    height: 100px;
+    width: 100px; /* Fixed syntax for width */
 }
